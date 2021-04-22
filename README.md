@@ -1,4 +1,5 @@
 [![cdk](https://img.shields.io/badge/built%20with-cdk-%23ec7211)](https://aws.amazon.com/cdk/)
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-orange.svg)](https://sonarcloud.io/dashboard?id=pawarrchetan_cdk-construct)
 # A serverless app using AWS CDK and Projen
 
 This is a serverless project using TypeScript with AWS CDK.
@@ -52,6 +53,10 @@ Various scripts are predefined in the `package.json` generated from projen.
 
 Run the test with `yarn test`.
 `yarn build `also runs test, so omit the example output here.
+
+## Sonar Scanning
+The project has been used SAST from Sonarcloud to generate a report about the critical components in the project.
+The link for the report can be found [Sonarcloud Report](https://sonarcloud.io/dashboard?id=pawarrchetan_cdk-construct).
 
 ## Deploy Locally
 
